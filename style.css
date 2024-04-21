@@ -3,7 +3,7 @@ body {
 }
 #container {
     margin: auto;
-    width: 300px;
+    width: 250px;
     height: auto;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
@@ -12,6 +12,7 @@ body {
 }
 
 .avatar {
+    padding-top: 20px;
     border-radius: 50%;
     width: 90px;  
     padding-bottom: 10px;  
@@ -24,8 +25,9 @@ body {
 
 p {
     margin: 0px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
+    margin-bottom: 15px;
 }
 
 .loc {
@@ -57,10 +59,10 @@ p {
 
 button {
     margin: 5px;
-    width: 300px;
+    width: 250px;
     height: 2.75em;
     background-color: hsl(0, 0%, 20%);
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     font-weight: 700;
 }
